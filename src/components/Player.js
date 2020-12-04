@@ -12,17 +12,19 @@ const Player = ({ item }) => {
         <Divider className="my-3" />
         <p className="row">
           <b className="col-sm-4">Batting </b>
-          <span className="col-sm-4 col-md-8">
+          <span className="col-sm-8">
             {item.Batting_Hand ? item.Batting_Hand : "Unknown"}
           </span>
         </p>
         <p className="row">
           <b className="col-sm-4">Bowling </b>
-          {item.Bowling_Skill ? item.Bowling_Skill : "Unknown"}
+          <span className="col-sm-8">
+            {item.Bowling_Skill ? item.Bowling_Skill : "Unknown"}
+          </span>
         </p>
         <p className="row">
           <b className="col-sm-4">Born </b>
-          {item.DOB ? item.DOB : "Unknown"}
+          <span className="col-sm-8">{item.DOB ? item.DOB : "Unknown"}</span>
         </p>
       </span>
 
