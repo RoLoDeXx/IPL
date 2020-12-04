@@ -82,13 +82,11 @@ const FilterBar = () => {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogTitle id="alert-dialog-slide-title">
-          {"Use Google's location service?"}
+          {"Advaned filters come here"}
         </DialogTitle>
         <DialogContent>All filters come here lorem ipsum</DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
-            Close
-          </Button>
+          <Button onClick={handleClose}>Close</Button>
           <Button onClick={handleClose} color="primary">
             Apply
           </Button>
