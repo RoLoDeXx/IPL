@@ -1,3 +1,7 @@
+# Views
+Filtered view is rendered as small chips below the filter bar
+To remove a filter, tap on the cross icons on the chip you want to remove
+
 # Load time
 
 ## Calculation
