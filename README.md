@@ -3,6 +3,7 @@
 ## Calculation
 I used inbuilt chrome network waterfall and a extension for calculation
 Page load time tested on deployed instance was 
+
 ![Capture](https://user-images.githubusercontent.com/35224521/101164824-a26e6600-365b-11eb-8dcc-ec22b234d14e.JPG)
 
 ## Optimization
